@@ -49,21 +49,15 @@
          <label>Level*</label>
          <input type="select" required="true">Elementary;Middle School;High School</input>
          
-         <label>Age*</label>
-         <note>Please enter your year of birth (YYYY, eg. 1980).</note>
+         <label>Rate your data fluency:</label>
+         <input type="select" required="true">Novice;Progressing;Fluent;Jedi Master</input>
+         
+         <label>Time in the field</label>
+         <note>Please enter your first year of teaching YYYY, eg. 1980).</note>
          <input type="text" required="true" maxlength="4" restricted="0-9"></input>
 
                   <label>Please answer the following questions.</label>
          <input type="rating2" required="false" scale="Yes;No;">Do you pull data at least once a week.</input>
-
-         <label>What kind of transportation do you use?</label>
-         <input type="checkbox" required="false">Car;Railroad;Bike</input>
-
-         <label>What kind of transportation do you prefer?</label>
-         <input type="select" required="false">Car;Railroad;Bike</input>
-
-         <label>Comments</label>
-         <input type="textarea" required="false"></input>
 
          <note bg="false">All fields marked with an * are mandatory.</note>
       </item>
